@@ -175,8 +175,54 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104251611535_InitialModel.cs" />
+    <Compile Include="Migrations\202104251611535_InitialModel.Designer.cs">
+      <DependentUpon>202104251611535_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104251647408_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\202104251647408_PopulateMembershipTypes.Designer.cs">
+      <DependentUpon>202104251647408_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104251656420_SeedMembershipTypeTable.cs" />
+    <Compile Include="Migrations\202104251656420_SeedMembershipTypeTable.Designer.cs">
+      <DependentUpon>202104251656420_SeedMembershipTypeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104251735115_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\202104251735115_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>202104251735115_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104251741510_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\202104251741510_SetNameOfMembershipTypes.Designer.cs">
+      <DependentUpon>202104251741510_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104251848443_MigrationFix.cs" />
+    <Compile Include="Migrations\202104251848443_MigrationFix.Designer.cs">
+      <DependentUpon>202104251848443_MigrationFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104251851114_FixNameToMembership.cs" />
+    <Compile Include="Migrations\202104251851114_FixNameToMembership.Designer.cs">
+      <DependentUpon>202104251851114_FixNameToMembership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104251853113_SetNamesOfMembership1.cs" />
+    <Compile Include="Migrations\202104251853113_SetNamesOfMembership1.Designer.cs">
+      <DependentUpon>202104251853113_SetNamesOfMembership1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104261832523_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\202104261832523_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>202104261832523_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104262125014_AddGenres.cs" />
+    <Compile Include="Migrations\202104262125014_AddGenres.Designer.cs">
+      <DependentUpon>202104262125014_AddGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104262125529_AddGenresValues.cs" />
+    <Compile Include="Migrations\202104262125529_AddGenresValues.Designer.cs">
+      <DependentUpon>202104262125529_AddGenresValues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -246,6 +292,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -262,6 +309,41 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202104251611535_InitialModel.resx">
+      <DependentUpon>202104251611535_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104251647408_PopulateMembershipTypes.resx">
+      <DependentUpon>202104251647408_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104251656420_SeedMembershipTypeTable.resx">
+      <DependentUpon>202104251656420_SeedMembershipTypeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104251735115_AddNameToMembershipType.resx">
+      <DependentUpon>202104251735115_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104251741510_SetNameOfMembershipTypes.resx">
+      <DependentUpon>202104251741510_SetNameOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104251848443_MigrationFix.resx">
+      <DependentUpon>202104251848443_MigrationFix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104251851114_FixNameToMembership.resx">
+      <DependentUpon>202104251851114_FixNameToMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104251853113_SetNamesOfMembership1.resx">
+      <DependentUpon>202104251853113_SetNamesOfMembership1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104261832523_AddBirthdateToCustomer.resx">
+      <DependentUpon>202104261832523_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104262125014_AddGenres.resx">
+      <DependentUpon>202104262125014_AddGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104262125529_AddGenresValues.resx">
+      <DependentUpon>202104262125529_AddGenresValues.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
