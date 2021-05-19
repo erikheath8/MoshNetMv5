@@ -254,3 +254,5 @@ C:\Users\fzr60\Documents\projects\c#\mosh\net\project\vidly\Vidly\Vidly\obj\Debu
 C:\Users\fzr60\Documents\projects\c#\mosh\net\project\vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\fzr60\Documents\projects\c#\mosh\net\project\vidly\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\fzr60\Documents\projects\c#\mosh\net\project\vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Users\fzr60\Documents\projects\c#\mosh\net\project\vidly\Vidly\Vidly\bin\AutoMapper.dll
+C:\Users\fzr60\Documents\projects\c#\mosh\net\project\vidly\Vidly\Vidly\bin\AutoMapper.xml
