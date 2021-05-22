@@ -386,3 +386,5 @@ C:\Users\fzr60\Documents\projects\cSharp\mosh\net\project\vidly\Vidly\Vidly\obj\
 C:\Users\fzr60\Documents\projects\cSharp\mosh\net\project\vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\fzr60\Documents\projects\cSharp\mosh\net\project\vidly\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\fzr60\Documents\projects\cSharp\mosh\net\project\vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Users\fzr60\Documents\projects\cSharp\mosh\net\project\vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Users\fzr60\Documents\projects\cSharp\mosh\net\project\vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
