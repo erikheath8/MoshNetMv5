@@ -14,6 +14,10 @@ namespace Vidly.Models
         [StringLength(64)]
         public string DrivingLicense { get; set; }
 
+        [Required]
+        [StringLength(32)]
+        public string Phone { get; set; }
+
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType

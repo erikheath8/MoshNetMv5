@@ -390,3 +390,4 @@ C:\Users\fzr60\Documents\projects\cSharp\mosh\net\project\vidly\Vidly\Vidly\obj\
 C:\Users\fzr60\Documents\projects\cSharp\mosh\net\project\vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
 C:\Users\fzr60\Documents\projects\cSharp\mosh\net\project\vidly\Vidly\Vidly\bin\Facebook.dll
 C:\Users\fzr60\Documents\projects\cSharp\mosh\net\project\vidly\Vidly\Vidly\bin\Facebook.xml
+C:\Users\fzr60\Documents\projects\cSharp\mosh\net\project\vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
