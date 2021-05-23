@@ -16,7 +16,8 @@
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(m => m.Customer.MembershipTypeId)    @*"Id" holds the data, "Name" holds the name associated*@
+        @Html.LabelFor(m => m.Customer.MembershipTypeId)    
+        @*"Id" holds the data, "Name" holds the name associated*@
         @Html.DropDownListFor(m => m.Customer.MembershipTypeId,
        new SelectList(Model.MembershipTypes, "Id", "Name"), "Select Membership Type",
        new { @class = "form-control" })
